@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Feedback Form</title>
+</head>
+<body>
+<form action="mydata.php" method="get">
+	<h1>Your thoughts make us better!</h1>
+	<br>
+	<b>Things you liked the most:</b> <br>
+	Design<input type="checkbox" name="design">
+	Links<input type="checkbox" name="links">
+	Ease of use<input type="checkbox" name="use">
+	Content<input type="checkbox" name="content">
+	Services<input type="checkbox" name="services">
+	Useful information<input type="checkbox" name="info">
+	<br><br>
+	<b> How did you get to our site?</b><br>
+	Search engine   <input type="radio" value="search engine">	
+	Links from another site<input type="radio" value="links">
+	Booking.com<input type="radio" name="booking.com">
+	Other (Please specify)<input type="text" name="other">
+	<br><br>
+	<b>Overall, how would you rate our site?</b>
+	<select name="rating">
+		<option value="amazing"> Amazing </option>
+		<option value="10"> 10 </option>
+		<option value="9"> 9 </option>
+		<option value="8"> 8 </option>
+		<option value="7"> 7 </option>
+		<option value="6"> 6 </option>
+		<option value="5"> 5 </option>
+		<option value="4"> 4 </option>
+		<option value="3"> 3 </option>
+		<option value="2"> 2 </option>
+		<option value="1"> 1 </option>
+		<option value="Awful"> Awful </option>
+	</select><br><br>
+	Please share your email with us so that you will be aware of the best offers!<input type="E-mail" name="email" value="Type your e-mail here" size="20">
+	Comments:<br>
+	<textarea name="comments" cols="30" rows="20">Leave your comments here</textarea>
+	<input type="button" name="Submit">
+
+	
+</form>
+</body>
+<footer>
+	<h5 style="text-align: center;">Thank you for visiting us! Please fill out our <a href="feedbackform.html"> feedback form </a>for further improvement :)</h5>
+</footer>
+</html>
